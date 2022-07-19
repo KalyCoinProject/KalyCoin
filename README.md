@@ -21,7 +21,7 @@ These are some resources that might be helpful in understanding Kalycoin.
 
 Basic usage resources:
 
-* [User guide](https://docs.kalycoin.site/en/)
+* [User guide](https://docs.kalycoin.io/en/)
 * [Kalycoin-Qt Wallet Tutorial](https://github.com/kalycoinproject/documents/tree/master/en/Kalycoin-Wallet-Tutorial#kalycoin-qt-wallet-tutorial)
 * [Kalycoin staking tutorial](https://github.com/kalycoinproject/documents/tree/master/en/How-to-Stake-with-Kalycoin)
 * [Kalycoin tutorial on Raspberry Pi](https://github.com/kalycoinproject/documents/tree/master/en/Kalycoin-on-Raspberry-Pi)
@@ -34,7 +34,7 @@ Basic usage resources:
 Development resources:
 
 * [Kalycoin Book - A Developer's Guide To KLC](http://book.kalycoin.site/en/)
-* [Kalycoin contract usage](https://docs.kalycoin.site/en/KRC20-Token-Introduce.html)
+* [Kalycoin contract usage](https://docs.kalycoin.io/en/KRC20-Token-Introduce.html)
 * [Deploying a custom token to Kalycoin](https://blog.kalycoin.io/kalycoin-custom-token-walkthrough-467d725fa27d)
 * [KalycoinJS document](https://kalycoinproject.github.io/kalycoinjs-doc/)
 * [Smart contract ICO example](http://book.kalycoin.site/en/part3/ico.htm)
