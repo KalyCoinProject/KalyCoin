@@ -62,28 +62,28 @@ BOOST_AUTO_TEST_CASE(subsidy_limit_test)
         int nBlocktimeDownscaleFactor = consensusParams.BlocktimeDownscaleFactor(nHeight);
 
         if(nSubsidyHalvingWeight <= 0){
-            BOOST_CHECK_EQUAL(nSubsidy, (100000000 * COIN));
+            BOOST_CHECK_EQUAL(nSubsidy, (15000 * COIN));
         }
         else if(nSubsidyHalvingWeight <= nSubsidyHalvingInterval){
-            BOOST_CHECK_EQUAL(nSubsidy, 25 * COIN / nBlocktimeDownscaleFactor);
+            BOOST_CHECK_EQUAL(nSubsidy, 6.39189 * COIN / nBlocktimeDownscaleFactor);
         }
         else if(nSubsidyHalvingWeight <= nSubsidyHalvingInterval*2){
-            BOOST_CHECK_EQUAL(nSubsidy, 12.5 * COIN / nBlocktimeDownscaleFactor);
+            BOOST_CHECK_EQUAL(nSubsidy, 3.195945 * COIN / nBlocktimeDownscaleFactor);
         }
         else if(nSubsidyHalvingWeight <= nSubsidyHalvingInterval*3){
-            BOOST_CHECK_EQUAL(nSubsidy, 6.25 * COIN / nBlocktimeDownscaleFactor);
+            BOOST_CHECK_EQUAL(nSubsidy, 1.5979725 * COIN / nBlocktimeDownscaleFactor);
         }
         else if(nSubsidyHalvingWeight <= nSubsidyHalvingInterval*4){
-            BOOST_CHECK_EQUAL(nSubsidy, 3.125 * COIN / nBlocktimeDownscaleFactor);
+            BOOST_CHECK_EQUAL(nSubsidy, 0.79898625 * COIN / nBlocktimeDownscaleFactor);
         }
         else if(nSubsidyHalvingWeight <= nSubsidyHalvingInterval*5){
-            BOOST_CHECK_EQUAL(nSubsidy, 1.5625 * COIN / nBlocktimeDownscaleFactor);
+            BOOST_CHECK_EQUAL(nSubsidy, 0.399493125 * COIN / nBlocktimeDownscaleFactor);
         }
         else if(nSubsidyHalvingWeight <= nSubsidyHalvingInterval*6){
-            BOOST_CHECK_EQUAL(nSubsidy, 0.125 * COIN / nBlocktimeDownscaleFactor);
+            BOOST_CHECK_EQUAL(nSubsidy, 0.199746563 * COIN / nBlocktimeDownscaleFactor);
         }
         else if(nSubsidyHalvingWeight <= nSubsidyHalvingInterval*7){
-            BOOST_CHECK_EQUAL(nSubsidy, 0.78125 * COIN / nBlocktimeDownscaleFactor);
+            BOOST_CHECK_EQUAL(nSubsidy, 0.099873281 * COIN / nBlocktimeDownscaleFactor);
         }
         else{
             BOOST_CHECK_EQUAL(nSubsidy, 0);
@@ -91,7 +91,7 @@ BOOST_AUTO_TEST_CASE(subsidy_limit_test)
         nSum += nSubsidy;
         BOOST_CHECK(MoneyRange(nSum));
     }
-    BOOST_CHECK_EQUAL(nSum, 50000000025000000ULL);
+    BOOST_CHECK_EQUAL(nSum, 12500000025000000ULL);
 }
 
 static bool ReturnFalse() { return false; }

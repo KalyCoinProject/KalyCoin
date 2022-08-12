@@ -82,13 +82,13 @@ public:
         consensus.CSVHeight = 6048; // 000000000000000004a1b34462cb8aeebd5799177f7a29cf28f2d1961716b5b5
         consensus.SegwitHeight = 6048; // 0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893
         consensus.MinBIP9WarningHeight = 8064; // segwit activation height + miner confirmation window
-        consensus.QIP5Height = 466600;
-        consensus.QIP6Height = 466600;
-        consensus.QIP7Height = 466600;
-        consensus.QIP9Height = 466600;
-        consensus.nOfflineStakeHeight = 680000;
-        consensus.nReduceBlocktimeHeight = 845000;
-        consensus.nMuirGlacierHeight = 845000;
+        consensus.QIP5Height = 48000;
+        consensus.QIP6Height = 48000;
+        consensus.QIP7Height = 48000;
+        consensus.QIP9Height = 48000;
+        consensus.nOfflineStakeHeight = 50000;
+        consensus.nReduceBlocktimeHeight = 120000;
+        consensus.nMuirGlacierHeight = 120000;
         consensus.powLimit = uint256S("0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.posLimit = uint256S("00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.QIP9PosLimit = uint256S("0000000000001fffffffffffffffffffffffffffffffffffffffffffffffffff"); // The new POS-limit activated after QIP9
@@ -108,10 +108,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
 
         // The best chain should have at least this much work.
-        // consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000100650065"); // kalycoin
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000100650065"); // kalycoin
 
         // By default assume that the signatures in ancestors of this block are valid.
-        // consensus.defaultAssumeValid = uint256S("0x000091e9ca64709546513f33b332046ae139b1a1c503bd51ca2013ab8d47dc54"); // 100
+        consensus.defaultAssumeValid = uint256S("0x000094dc00f7af9530a01ad5f42d118eb00c6e59c078957d36bf461c6ec9eb05"); // 100
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -161,12 +161,12 @@ public:
 
         checkpointData = {
             {
-                { 0, uint256S("00000000b2e440e183df808c8a5adc1e2a6d7cb20584aed2fee9c7b360b451db")},
-                { 100, uint256S("000091e9ca64709546513f33b332046ae139b1a1c503bd51ca2013ab8d47dc54")},
-                { 200, uint256S("0000a08400e61fb85a9426239a38474897879b29021f3660d2221daf946a86db")},
-                { 300, uint256S("000031b24e58129c6012367120ea66251eb7c2ab5307ae508e960b9e49456082")},
-                { 400, uint256S("000054ccb128c907e97300b331947d4812966dac6eedfd76aa201453009937a0")},
-                { 500, uint256S("0000dc97d964d0bbd31fb1f7d9c84ae8dd09c865109ccf68c80fe7b5b43e64a5")},
+                
+                { 100, uint256S("000094dc00f7af9530a01ad5f42d118eb00c6e59c078957d36bf461c6ec9eb05")},
+                { 200, uint256S("0000437cd60b85b60614b70525200e9acb4735c125826eeb75daedc58ef310f9")},
+                { 300, uint256S("000084044c66d7beaa05756e957bbf98bb792497a77c120d72306bd89a1bc30c")},
+                { 400, uint256S("000082af849e8c8a95c2d18575d2ccfe70f42f2dace89d6e5965e49fde2c55e5")},
+                { 500, uint256S("000004ca029a23a278f7f1aee117e3a5b19e35a287ca93062da36be3a95ac7b1")}, 
                 
                 
             }
@@ -174,7 +174,7 @@ public:
 
         chainTxData = ChainTxData{
             // Data as of block 87ee4ec601b335d411e01378936e21044b1a47a3d989feaaaed0e8eaa2929e4b (height 1407838)
-            1653685139, // * UNIX timestamp of last known number of transactions
+            1659067221, // * UNIX timestamp of last known number of transactions
             0, // * total number of transactions between genesis and that timestamp
             //   (the tx=... number in the SetBestChain debug.log lines)
             0.0842613440826197 // * estimated number of transactions per second after that timestamp

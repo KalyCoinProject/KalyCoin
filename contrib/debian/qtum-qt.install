@@ -1,6 +1,0 @@
-usr/local/bin/kalycoin-qt usr/bin
-share/pixmaps/kalycoin32.xpm usr/share/pixmaps
-share/pixmaps/kalycoin16.xpm usr/share/pixmaps
-share/pixmaps/kalycoin128.png usr/share/pixmaps
-debian/kalycoin-qt.desktop usr/share/applications
-debian/kalycoin-qt.protocol usr/share/kde4/services/
