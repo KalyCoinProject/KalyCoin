@@ -23,7 +23,7 @@ Basic usage resources:
 
 * [User guide](https://kalycoin.gitbook.io/kalycoin-documentation/)
 * [Kalycoin-Qt Wallet Tutorial](https://kalycoin.gitbook.io/kalycoin-documentation/desktop-wallet-basic-usage)
-* [Kalycoin staking tutorial]https://kalycoin.gitbook.io/kalycoin-documentation/desktop-wallet-basic-usage#staking)
+* [Kalycoin staking tutorial](https://kalycoin.gitbook.io/kalycoin-documentation/desktop-wallet-basic-usage#staking)
 * [Kalycoin tutorial on Raspberry Pi](https://kalycoin.gitbook.io/kalycoin-documentation/kalycoin-on-raspberry-pi)
 * [Encrypting and unlocking wallet](https://kalycoin.gitbook.io/kalycoin-documentation/kalycoin-on-raspberry-pi#encrypting-wallet)
 * [Block explorer](https://explorer.kalycoin.io), [Older explorer](https://explorer.kalycoin.io)
