@@ -21,21 +21,19 @@ These are some resources that might be helpful in understanding Kalycoin.
 
 Basic usage resources:
 
-* [User guide](https://docs.kalycoin.io/en/)
-* [Kalycoin-Qt Wallet Tutorial](https://github.com/kalycoinproject/documents/tree/master/en/Kalycoin-Wallet-Tutorial#kalycoin-qt-wallet-tutorial)
-* [Kalycoin staking tutorial](https://github.com/kalycoinproject/documents/tree/master/en/How-to-Stake-with-Kalycoin)
-* [Kalycoin tutorial on Raspberry Pi](https://github.com/kalycoinproject/documents/tree/master/en/Kalycoin-on-Raspberry-Pi)
-* [Running Kalycoin on Amazon AWS using Kalycoin AMI](https://github.com/kalycoinproject/documents/tree/master/en/Kalycoin-AWS)
-* [Encrypting and unlocking wallet](https://github.com/kalycoinproject/documents/tree/master/en/Encrypt-and-Unlock-Kalycoin-Wallet)
-* [Testnet guide](https://github.com/kalycoinproject/documents/blob/master/en/Testnet-User-Guide.md)
+* [User guide](https://kalycoin.gitbook.io/kalycoin-documentation/)
+* [Kalycoin-Qt Wallet Tutorial](https://kalycoin.gitbook.io/kalycoin-documentation/desktop-wallet-basic-usage)
+* [Kalycoin staking tutorial]https://kalycoin.gitbook.io/kalycoin-documentation/desktop-wallet-basic-usage#staking)
+* [Kalycoin tutorial on Raspberry Pi](https://kalycoin.gitbook.io/kalycoin-documentation/kalycoin-on-raspberry-pi)
+* [Encrypting and unlocking wallet](https://kalycoin.gitbook.io/kalycoin-documentation/kalycoin-on-raspberry-pi#encrypting-wallet)
 * [Block explorer](https://explorer.kalycoin.io), [Older explorer](https://explorer.kalycoin.io)
 
 
 Development resources:
 
-* [Kalycoin Book - A Developer's Guide To KLC](http://book.kalycoin.site/en/)
-* [Kalycoin contract usage](https://docs.kalycoin.io/en/KRC20-Token-Introduce.html)
-* [Deploying a custom token to Kalycoin](https://blog.kalycoin.io/kalycoin-custom-token-walkthrough-467d725fa27d)
+* [Kalycoin Book - A Developer's Guide To KLC](https://kalycoin.gitbook.io/kalycoin-documentation/kalycoin-rpc-api)
+* [Kalycoin contract usage](https://kalycoin.gitbook.io/kalycoin-documentation/krc20-token-introduction)
+* [Deploying a custom token to Kalycoin](https://kalycoin.gitbook.io/kalycoin-documentation/krc20-token-introduction#creating-krc20-tokens)
 * [KalycoinJS document](https://kalycoinproject.github.io/kalycoinjs-doc/)
 * [Smart contract ICO example](http://book.kalycoin.site/en/part3/ico.htm)
 * [Early example faucet contract](http://earlz.net/view/2017/06/30/2144/the-kalycoin-sparknet-faucet)
