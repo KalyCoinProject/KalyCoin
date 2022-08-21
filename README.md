@@ -35,14 +35,13 @@ Development resources:
 * [Kalycoin contract usage](https://kalycoin.gitbook.io/kalycoin-documentation/krc20-token-introduction)
 * [Deploying a custom token to Kalycoin](https://kalycoin.gitbook.io/kalycoin-documentation/krc20-token-introduction#creating-krc20-tokens)
 * [KalycoinJS document](https://kalycoinproject.github.io/kalycoinjs-doc/)
-* [Smart contract ICO example](http://book.kalycoin.site/en/part3/ico.htm)
-* [Early example faucet contract](http://earlz.net/view/2017/06/30/2144/the-kalycoin-sparknet-faucet)
+
 
 General Info about Kalycoin:
 
-* [CIRCLERESEARCH Kalycoin Primer](https://www.circle.com/marketing/pdfs/research/circle-research-kalycoin.pdf)
-* [Kalycoin's PoS vs CASPER](https://www.reddit.com/r/Kalycoin/comments/788oa5/kalycoins_pos_vs_casper_and_the_nothingatstake_problem/)
-* [Technical article explaining Kalycoin's PoS model in depth](http://earlz.net/view/2017/07/27/1904/the-missing-explanation-of-proof-of-stake-version)
+* [Kalycoin Project](https://kalycoin.io/en/)
+* [Youtube](https://kalycoin.io/en/)
+* [Whitepaper](https://kalycoin.io/wp-content/uploads/2022/03/White-paper-KLC-EN.pdf/)
 
 
 Developer's Tools
@@ -89,29 +88,17 @@ Kalycoin Core uses a full node model, and thus requires downloading the entire b
 
 A browser wallet that supports the Ledger hardware wallet, offline cold wallet, and restoration from mobile wallets.
 
-Web site https://kalycoinwallet.org
+Web site https://kalycoin.io
 
-User documentation https://github.com/kalycoinproject/documents/tree/master/en/KLC-WebWallet-usage
-
-### Kalycoin Electrum
-
-A light wallet that supports the Ledger and Trezor hardware wallets and is based on the well-known Electrum wallet software. 
-
-Download: https://github.com/kalycoinproject/kalycoin-electrum/releases
+User documentation https://kalycoin.gitbook.io/kalycoin-documentation/
 
 ### iOS and Android Wallets
 
-These wallets run on mobile devices and synchronize quickly. 
+On Development. 
 
-Android Download: https://play.google.com/store/apps/details?id=org.kalycoin.newwallet
+Android Download: On Development. 
 
-iOS Download: https://github.com/kalycoinproject/kalycoin-ios (open source, deprecated)
-
-### Ledger Chrome Wallet
-
-This light wallet runs in your Chrome browser as a browser extension. This wallet requires a Ledger device to use.
-
-How to install: https://ledger.zendesk.com/hc/en-us/articles/115003776913-How-to-install-and-use-Kalycoin-with-Ledger
+iOS Download: On Development. 
 
 
 ### Community Resources
@@ -119,7 +106,6 @@ How to install: https://ledger.zendesk.com/hc/en-us/articles/115003776913-How-to
 Make sure to check out these resources as well for more information and to keep up to date with all the latest news about Kalycoin. At least 1 developer is always around, so if you're developing on Kalycoin and need help, we'd love to welcome you to our community.
 
 *	@Kalycoin on Twitter https://twitter.com/kalycoin
-* Kalycoin blog https://blog.kalycoin.io/
 *	Kalycoin Telegram Group https://t.me/kalycoinofficial, other languages available
 * Kalycoin Discord https://discordapp.com/invite/wRfmkQ9
 *	/r/Kalycoin on Reddit https://www.reddit.com/r/Kalycoin/
