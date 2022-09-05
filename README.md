@@ -21,27 +21,26 @@ These are some resources that might be helpful in understanding Kalycoin.
 
 Basic usage resources:
 
-* [User guide](https://kalycoin.gitbook.io/kalycoin-documentation/)
-* [Kalycoin-Qt Wallet Tutorial](https://kalycoin.gitbook.io/kalycoin-documentation/desktop-wallet-basic-usage)
-* [Kalycoin staking tutorial](https://kalycoin.gitbook.io/kalycoin-documentation/desktop-wallet-basic-usage#staking)
-* [Kalycoin tutorial on Raspberry Pi](https://kalycoin.gitbook.io/kalycoin-documentation/kalycoin-on-raspberry-pi)
-* [Encrypting and unlocking wallet](https://kalycoin.gitbook.io/kalycoin-documentation/kalycoin-on-raspberry-pi#encrypting-wallet)
+* [User guide](https://docs.kalycoin.io/kalycoin-documentation/)
+* [Kalycoin-Qt Wallet Tutorial](https://docs.kalycoin.io/kalycoin-documentation/desktop-wallet-basic-usage)
+* [Kalycoin staking tutorial](https://docs.kalycoin.io/kalycoin-documentation/desktop-wallet-basic-usage#staking)
+* [Encrypting and unlocking wallet](https://docs.kalycoin.io/encrypt-and-unlock-kalycoin-wallet)
 * [Block explorer](https://explorer.kalycoin.io)
 
 
 Development resources:
 
-* [Kalycoin Book - A Developer's Guide To KLC](https://kalycoin.gitbook.io/kalycoin-documentation/kalycoin-rpc-api)
-* [Kalycoin contract usage](https://kalycoin.gitbook.io/kalycoin-documentation/krc20-token-introduction)
-* [Deploying a custom token to Kalycoin](https://kalycoin.gitbook.io/kalycoin-documentation/krc20-token-introduction#creating-krc20-tokens)
-* [KalycoinJS document](https://kalycoinproject.github.io/kalycoinjs-doc/)
+* [Kalycoin Book - A Developer's Guide To KLC](https://docs.kalycoin.io/kalycoin-documentation/kalycoin-rpc-api)
+* [Kalycoin contract usage](https://docs.kalycoin.io/kalycoin-documentation/krc20-token-introduction)
+* [KalycoinJS document](https://github.com/KalyCoinProject/kalycoinjs)
 
 
 General Info about Kalycoin:
-
-* [Kalycoin Project](https://kalycoin.io/en/)
+* [KALYSSI Project](https://kalyssi.com/)
+* [KalyPay](https://kalypay.com/)
+* [Kalycoin Blockchain](https://kalycoin.io/en/)
 * [Youtube](https://kalycoin.io/en/)
-* [Whitepaper](https://kalycoin.io/wp-content/uploads/2022/03/White-paper-KLC-EN.pdf/)
+* [Whitepaper](https://github.com/KalyCoinProject/documents/blob/main/en/KalyCoin%20Whitepaper%20v1.0.pdf)
 
 
 Developer's Tools
@@ -90,7 +89,7 @@ A browser wallet that supports the Ledger hardware wallet, offline cold wallet, 
 
 Web site https://kalycoin.io
 
-User documentation https://kalycoin.gitbook.io/kalycoin-documentation/
+User documentation https://docs.kalycoin.io/kalycoin-documentation/
 
 ### iOS and Android Wallets
 
