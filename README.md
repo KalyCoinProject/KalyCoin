@@ -30,8 +30,8 @@ Basic usage resources:
 
 Development resources:
 
-* [Kalycoin Book - A Developer's Guide To KLC](https://docs.kalycoin.io/kalycoin-documentation/kalycoin-rpc-api)
-* [Kalycoin contract usage](https://docs.kalycoin.io/kalycoin-documentation/krc20-token-introduction)
+* [Kalycoin Book - A Developer's Guide To KLC](https://docs.kalycoin.io/kalycoin-rpc-api)
+* [Kalycoin contract usage](https://docs.kalycoin.io/krc20-token-introduction)
 * [KalycoinJS document](https://github.com/KalyCoinProject/kalycoinjs)
 
 
