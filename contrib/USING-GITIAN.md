@@ -14,7 +14,7 @@ These actions are executed once when first using gitian-builder. If you have use
 1. ```kalycoin/contrib/gitian-build.sh --setup``` This command create and setup virtual machines to build your binaries files. This command may take a while (about 40 minutes). If you want to use KVM as build VM , run script with ```--kvm```.
     ```kalycoin/contrib/gitian-build.sh --setup --kvm```
 
-2. Create the OS X SDK tarball( https://github.com/kalycoinproject/kalycoin/blob/master/doc/README_osx.md), create inputs/ folder in gitian-builder/ . Copy MacOSX10.11.sdk.tar.gz into the inputs/ directory.
+2. Create the OS X SDK tarball( https://github.com/kalycoinproject/kalycoin/blob/main/doc/README_osx.md), create inputs/ folder in gitian-builder/ . Copy MacOSX10.11.sdk.tar.gz into the inputs/ directory.
 ##### Not first time
 Ensure that the ./gitian.sigs directory is up to date for signs verifying.
 

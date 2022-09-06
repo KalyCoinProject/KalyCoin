@@ -22,8 +22,8 @@ These are some resources that might be helpful in understanding Kalycoin.
 Basic usage resources:
 
 * [User guide](https://docs.kalycoin.io/kalycoin-documentation/)
-* [Kalycoin-Qt Wallet Tutorial](https://docs.kalycoin.io/kalycoin-documentation/desktop-wallet-basic-usage)
-* [Kalycoin staking tutorial](https://docs.kalycoin.io/kalycoin-documentation/desktop-wallet-basic-usage#staking)
+* [Kalycoin-Qt Wallet Tutorial](https://docs.kalycoin.io/desktop-wallet-basic-usage)
+* [Kalycoin staking tutorial](https://docs.kalycoin.io/desktop-wallet-basic-usage#staking)
 * [Encrypting and unlocking wallet](https://docs.kalycoin.io/encrypt-and-unlock-kalycoin-wallet)
 * [Block explorer](https://explorer.kalycoin.io)
 
@@ -57,7 +57,7 @@ Developer's Tools
 * Docker images for running kalycoin services
   * https://github.com/kalycoinproject/kalycoin-docker
 * explorer.kalycoin.io API that powers the block explorer and the KLC Web wallet
-  * https://github.com/kalycoinproject/kalycoininfo-api#kalycoininfo-api-documentation
+  * https://github.com/KalyCoinProject/documents/tree/main/en/KalyCoin-RPC-API
 
 
 What is Kalycoin Core?
@@ -93,7 +93,6 @@ User documentation https://docs.kalycoin.io/kalycoin-documentation/
 
 ### iOS and Android Wallets
 
-On Development. 
 
 Android Download: On Development. 
 
@@ -104,13 +103,12 @@ iOS Download: On Development.
 
 Make sure to check out these resources as well for more information and to keep up to date with all the latest news about Kalycoin. At least 1 developer is always around, so if you're developing on Kalycoin and need help, we'd love to welcome you to our community.
 
-*	@Kalycoin on Twitter https://twitter.com/kalycoin
+*	@Kalycoin on Twitter https://twitter.com/KalyPay 
 *	Kalycoin Telegram Group https://t.me/kalycoinofficial, other languages available
 * Kalycoin Discord https://discordapp.com/invite/wRfmkQ9
-*	/r/Kalycoin on Reddit https://www.reddit.com/r/Kalycoin/
-*	Kalycoin.org https://kalycoin.io
-*	Kalycoin on Facebook https://www.facebook.com/KalycoinOfficial/
-*	Kalycoin Forum https://forum.kalycoin.io
+*	Kalycoin Website https://kalycoin.io
+*	Kalycoin on Facebook https://m.facebook.com/KalyssiOficial/
+
 
 ### Kalycoin Smart Contract Limitations
 
@@ -126,7 +124,7 @@ Make sure to check out these resources as well for more information and to keep 
 
 ### Validate and Reproduce Binaries
 
-Kalycoin uses a tool called Gitian to make reproducible builds that can be verified by anyone. Instructions on setting up a Gitian VM and building Kalycoin are provided in [Gitan Building](https://github.com/kalycoinproject/kalycoin/blob/master/doc/gitian-building.md)
+Kalycoin uses a tool called Gitian to make reproducible builds that can be verified by anyone. Instructions on setting up a Gitian VM and building Kalycoin are provided in [Gitan Building](https://github.com/kalycoinproject/kalycoin/blob/main/doc/gitian-building.md)
 
 ### Build on Ubuntu
 
@@ -152,7 +150,7 @@ This is a quick start script for compiling Kalycoin on Ubuntu
     
 ### Build on CentOS
 
-Here is a brief description for compiling Kalycoin on CentOS, for more details please refer to [the specific document](https://github.com/kalycoinproject/kalycoin/blob/master/doc/build-unix.md)
+Here is a brief description for compiling Kalycoin on CentOS, for more details please refer to [the specific document](https://github.com/kalycoinproject/kalycoin/blob/main/doc/build-unix.md)
 
     # Compiling boost manually
     sudo yum install python-devel bzip2-devel
