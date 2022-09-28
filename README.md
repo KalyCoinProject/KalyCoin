@@ -40,7 +40,7 @@ General Info about Kalycoin:
 * [KalyPay](https://kalypay.com/)
 * [Kalycoin Blockchain](https://kalycoin.io/en/)
 * [Youtube](https://kalycoin.io/en/)
-* [Whitepaper](https://github.com/KalyCoinProject/documents/blob/main/en/KalyCoin%20Whitepaper%20v1.0.pdf)
+* [Whitepaper](https://github.com/KalyCoinProject/old-documents/blob/main/en/KalyCoin%20Whitepaper%20v1.0.pdf)
 
 
 Developer's Tools
@@ -57,7 +57,7 @@ Developer's Tools
 * Docker images for running kalycoin services
   * https://github.com/kalycoinproject/kalycoin-docker
 * explorer.kalycoin.io API that powers the block explorer and the KLC Web wallet
-  * https://github.com/KalyCoinProject/documents/tree/main/en/KalyCoin-RPC-API
+  * https://github.com/KalyCoinProject/old-documents/tree/main/en/KalyCoin-RPC-API
 
 
 What is Kalycoin Core?
